@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactUs from '../components/contact-us';
+import ContactUsSection from '../components/contact-us';
 import Counter from '../components/counter';
 import Partners from '../components/parteners';
 
@@ -8,7 +8,7 @@ const Home = () => {
         <>
             <Counter />
             <Partners/>
-            <ContactUs />
+            <ContactUsSection />
         </>
     );
 }

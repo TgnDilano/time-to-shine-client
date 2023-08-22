@@ -3,7 +3,7 @@ import {
     FaFacebookF,
     FaLinkedin,
     FaMapMarkedAlt,
-    FaPhone,
+    FaPhoneAlt,
     FaTwitter,
     FaVoicemail,
     FaYoutube,
@@ -12,7 +12,7 @@ import appRoutes from "../routes/routes";
 
 export default function Footer() {
     return (
-        <footer className="w-screen py-4 px-32 bg-black padHor items-center justify-center gap-y-6 text-white">
+        <footer className="w-screen py-4 padx bg-black padHor items-center justify-center gap-y-6 text-white">
             <div className="flex justify-between text-zinc-400 my-4 items-center">
                 <div className='flex-col w-[650px]'>
                     <h3 className="text-xl font-bold mb-1 text-white">Règlement</h3>
@@ -33,10 +33,10 @@ export default function Footer() {
                             <FaVoicemail /> <p>icebergplus47@gmail.com</p>
                         </div>
                         <div className="flex gap-x-2 items-center">
-                            <FaPhone /> <p>+(237) 678 10 02 82 (CM)</p>
+                            <FaPhoneAlt /> <p>+(237) 678 10 02 82 (CM)</p>
                         </div>
                         <div className="flex gap-x-2 items-center">
-                            <FaPhone /> <p>+(237) 658 85 30 98 (CM)</p>
+                            <FaPhoneAlt /> <p>+(237) 658 85 30 98 (CM)</p>
                         </div>
                     </div>
                 </div>

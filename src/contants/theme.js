@@ -6,8 +6,8 @@ const theme = extendTheme({
     body: `Space Grotesk, sans-serif`,
   },
   colors: {
-    primary: {
-      main: "##ecaf52",
+    blue: {
+      main: "#ecaf52",
       50: "#ecaf52",
       100: "#ecaf52",
       200: "#ecaf52",

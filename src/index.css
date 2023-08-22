@@ -11,3 +11,19 @@ body {
 .social-icons {
     @apply text-white p-3 border border-white rounded-full cursor-pointer duration-150;
 }
+
+.titleLarge{
+    @apply font-semibold text-5xl
+}
+
+.titleMedium{
+    @apply font-semibold text-3xl
+}
+
+.contact-us-box{
+    @apply flex items-center gap-x-4 py-10 px-14 border border-zinc-100 hover:border-gold duration-200
+}
+
+.padx{
+    @apply px-32
+}

@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        gold:"#ecaf52",
         risenBlack: "#161819",
         grey: "#55565a",
         risenGreen: "#cac927",
