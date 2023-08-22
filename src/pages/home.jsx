@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <>
             <Counter />
-            <Partners/>
             <ContactUsSection />
+            <Partners/>
         </>
     );
 }

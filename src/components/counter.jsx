@@ -5,7 +5,6 @@ import { Button } from '@chakra-ui/react';
 const Counter = () => {
     return (
         <section className='h-[40rem] w-screen relative overflow-hidden '>
-            <img src={timerBg} className='absolute w-full h-full object-cover' />
             <div className='w-full h-full absolute z-10 flex items-center justify-center flex-col gap-y-14'>
                 <h2 className='uppercase text-4xl font-semibold'>Fin des votes dans</h2>
                 <div className='flex gap-x-12'>
