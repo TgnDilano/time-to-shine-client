@@ -19,7 +19,7 @@ const NavBar = () => {
   console.log(currentRoute);
 
   return (
-    <header className="sticky top-0 w-screen z-80 h-[5.2rem] bg-black shadow">
+    <header className="fixed top-0 w-screen z-50 h-[5.2rem] bg-black shadow">
       <nav className="h-full w-full text-lg text-zinc-400 flex justify-between padx items-center">
         <Link className="p-1">
           <img src={logo} />
@@ -38,7 +38,9 @@ const NavBar = () => {
             </Link>
           ))}
         </ul>
-        <Button borderRadius={0} backgroundColor="blue.400" onClick={onOpen}>S'incrire</Button>
+        <Button borderRadius={0} backgroundColor="blue.400" onClick={onOpen}>
+          S'incrire
+        </Button>
       </nav>
       <Inscription isOpen={isOpen} onClose={onClose} />
     </header>

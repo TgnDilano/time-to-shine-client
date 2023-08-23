@@ -41,7 +41,7 @@ const Partners = () => {
           beaucoup." - Helen Keller
         </p>
       </div>
-      <div className="w-full h-56 px-12">
+      <div className="w-full h-[10rem] px-12">
         <Swiper
           modules={[Autoplay, Pagination, Navigation]}
           spaceBetween={50}
@@ -54,7 +54,7 @@ const Partners = () => {
         >
           {images.map((e) => (
             <SwiperSlide>
-              <img src={e} className="w-64 h-52 cursor-pointer " />
+              <img src={e} className="w-64 h-48 cursor-pointer graysale hover:graysale-0 " />
             </SwiperSlide>
           ))}
         </Swiper>

@@ -6,7 +6,7 @@ export default {
       colors: {
         gold: "#ecaf52",
         risenBlack: "#161819",
-        grey: "#55565a",
+        risenGrey: "#55565a",
         risenGreen: "#cac927",
         risenGreenDark: "#97971e",
       },
