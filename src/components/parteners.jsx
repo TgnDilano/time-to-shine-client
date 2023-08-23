@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import React from "react";
 
 import partner0 from "../assets/partners/partner_0.jpg";
 import partner1 from "../assets/partners/partner_1.jpg";
@@ -13,6 +11,11 @@ import partner7 from "../assets/partners/partner_7.jpg";
 import partner8 from "../assets/partners/partner_8.jpg";
 import partner9 from "../assets/partners/partner_9.jpg";
 import partner10 from "../assets/partners/partner_10.jpg";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const Partners = () => {
   const images = [
@@ -30,33 +33,32 @@ const Partners = () => {
   ];
 
   return (
-    <section className="h-[30rem] w-screen bg-risenBlack flex flex-col items-center justify-center gap-y-14">
-      <h2 className="font-semibold text-white text-4xl">Nos Partenaires</h2>
-      <Swiper
-        spaceBetween={50}
-        slidesPerView={3}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-        <SwiperSlide className="">
-          <img src={partner0} className="h-52 w-72" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={partner0} className="h-52 w-72" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={partner0} className="h-52 w-72" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={partner0} className="h-52 w-72" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={partner0} className="h-52 w-72" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={partner0} className="h-52 w-72" />
-        </SwiperSlide>
-      </Swiper>
+    <section className="h- w-screen py-16 bg-risenBlack flex flex-col items-center justify-center gap-y-14 text-white">
+      <div className="text-center">
+        <h2 className="font-semibold  text-4xl">Nos Partenaires</h2>
+        <p className=" text-xl mt-2">
+          "Seuls, nous pouvons faire si peu, ensemble, nous pouvons faire
+          beaucoup." - Helen Keller
+        </p>
+      </div>
+      <div className="w-full h-56 px-12">
+        <Swiper
+          modules={[Autoplay, Pagination, Navigation]}
+          spaceBetween={50}
+          slidesPerView={6}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: true,
+          }}
+          className=""
+        >
+          {images.map((e) => (
+            <SwiperSlide>
+              <img src={e} className="w-64 h-52 cursor-pointer " />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </section>
   );
 };

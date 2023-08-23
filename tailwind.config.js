@@ -1,13 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        gold:"#ecaf52",
+        gold: "#ecaf52",
         risenBlack: "#161819",
         grey: "#55565a",
         risenGreen: "#cac927",
@@ -16,4 +13,4 @@ export default {
     },
   },
   plugins: [],
-}
+};

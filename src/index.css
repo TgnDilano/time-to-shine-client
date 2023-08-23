@@ -5,29 +5,34 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .social-icons {
-    @apply text-white p-3 border border-white rounded-full cursor-pointer duration-150;
+  @apply text-white p-3 border border-white rounded-full cursor-pointer duration-150;
 }
 
-.titleLarge{
-    @apply font-semibold text-5xl
+.titleLarge {
+  @apply font-semibold text-5xl;
 }
 
-.titleMedium{
-    @apply font-semibold text-3xl
+.titleMedium {
+  @apply font-semibold text-3xl;
 }
 
-.contact-us-box{
-    @apply flex items-center gap-x-4 py-10 px-14 border border-zinc-100 hover:border-gold duration-200
+.contact-us-box {
+  @apply flex items-center gap-x-4 py-10 px-14 border border-zinc-100 hover:border-gold duration-200;
 }
 
-.padx{
-    @apply px-32
+.padx {
+  @apply px-32;
 }
 
-.clipPath{
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
