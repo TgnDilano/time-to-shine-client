@@ -42,7 +42,7 @@ const SingleImage = () => {
 const Gallery = () => {
   return (
     <div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mt-7">
         <LineTitle title="Image Gallery" color="gold" showLine />
       </div>
       <section className="px-6 md:px-20 xl:px-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1 py-10">

@@ -73,7 +73,7 @@ const About = () => {
                         hover:border-gold"
             >
               <div className="flex justify-between items-center w-full">
-                <h3 className="upppercase text-2xl font-medium text-center uppercase">
+                <h3 className="upppercase text-2xl font-medium text-center uppercase group-hover:text-gold">
                   {e.title}
                 </h3>
                 <p className="titleLarge text-gray-400 duration-300 group-hover:text-gold">
