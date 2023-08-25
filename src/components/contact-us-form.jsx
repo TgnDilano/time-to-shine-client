@@ -12,7 +12,7 @@ import LineTitle from "./line-title";
 const ContactUsForm = ({ className }) => {
   return (
     <Box className={`w-[75%] lg:w-[45%] ${className}`}>
-      <FormControl className="flex flex-col gap-y-8 px-12 py-10">
+      <FormControl className="flex flex-col gap-y-6 px-12 py-10">
         <div className="flex items-center justify-left">
           <LineTitle title="Remplissez le formulaire" color="gold" />
         </div>

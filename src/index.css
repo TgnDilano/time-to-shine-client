@@ -25,7 +25,7 @@ body {
 }
 
 .padx {
-  @apply px-32;
+  @apply px-12 md:px-20 lg:px-32;
 }
 
 .hide-scroll-bar::-webkit-scrollbar {

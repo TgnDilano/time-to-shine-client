@@ -6,12 +6,12 @@ import Home from "../pages/home";
 const appRoutes = {
   home: {
     path: "/home",
-    name: "Home",
+    name: "Accueil",
     component: <Home />,
   },
   competition: {
     path: "/competition",
-    name: "Competition",
+    name: "Concurrents",
     component: <div>Home</div>,
   },
   gallery: {

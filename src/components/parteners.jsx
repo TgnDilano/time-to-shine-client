@@ -33,7 +33,7 @@ const Partners = () => {
   ];
 
   return (
-    <section className="h- w-screen py-16 bg-risenBlack flex flex-col items-center justify-center gap-y-14 text-white">
+    <section className="w-screen py-12 bg-risenBlack text-white flex flex-col tems-center justify-center gap-y-14 border-t border-gray-100">
       <div className="text-center">
         <h2 className="font-semibold  text-4xl">Nos Partenaires</h2>
         <p className=" text-xl mt-2">
@@ -41,7 +41,7 @@ const Partners = () => {
           beaucoup." - Helen Keller
         </p>
       </div>
-      <div className="w-full h-[10rem] px-12">
+      <div className="w-full h-[12.5rem] px-12">
         <Swiper
           modules={[Autoplay, Pagination, Navigation]}
           spaceBetween={50}
@@ -54,7 +54,10 @@ const Partners = () => {
         >
           {images.map((e) => (
             <SwiperSlide>
-              <img src={e} className="w-64 h-48 cursor-pointer graysale hover:graysale-0 " />
+              <img
+                src={e}
+                className="w-64 h-48 cursor-pointer graysale hover:graysale-0 "
+              />
             </SwiperSlide>
           ))}
         </Swiper>

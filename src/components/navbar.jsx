@@ -19,7 +19,7 @@ const NavBar = () => {
   console.log(currentRoute);
 
   return (
-    <header className="fixed top-0 w-screen z-50 h-[5.2rem] bg-black border-b-[3px] border-gold shadow">
+    <header className="fixed top-0 w-screen z-50 h-[5.2rem] bg-black border-b-[2.5px] border-gold shadow">
       <nav className="h-full w-full text-lg text-zinc-400 flex justify-between padx items-center">
         <Link className="p-1">
           <img src={logo} />

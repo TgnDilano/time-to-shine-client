@@ -11,6 +11,8 @@ const Home = () => {
       <Counter />
       <ContactUsSection />
       <Partners />
+      {/* <Candidates />
+       */}
     </>
   );
 };

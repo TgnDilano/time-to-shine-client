@@ -9,6 +9,7 @@ export default {
         risenGrey: "#55565a",
         risenGreen: "#cac927",
         risenGreenDark: "#97971e",
+        davysGrey: "#D9DBF1",
       },
     },
   },
