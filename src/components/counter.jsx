@@ -41,7 +41,7 @@ const Counter = () => {
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.3 }}
     >
-      <section className="h-[42rem] bg-gray-50 w-screen relative overflow-hidden ">
+      <section className="h-[42rem] bg-gray-100 w-screen relative overflow-hidden ">
         <div className="w-full h-full absolute z-10 flex items-center justify-center flex-col gap-y-14">
           {/* <img src={timer} className="absolute z-0 w-full object-cover h-full" /> */}
           <div className="absolute flex flex-col items-center gap-y-12">

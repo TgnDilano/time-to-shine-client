@@ -33,7 +33,7 @@ const Partners = () => {
   ];
 
   return (
-    <section className="w-screen py-12 bg-risenBlack text-white flex flex-col tems-center justify-center gap-y-14 border-t border-gray-100">
+    <section className="w-screen py-16 bg-risenBlack text-white flex flex-col tems-center justify-center gap-y-14 border-t border-gray-100">
       <div className="text-center">
         <h2 className="font-semibold  text-4xl">Nos Partenaires</h2>
         <p className=" text-xl mt-2">

@@ -21,7 +21,7 @@ body {
 }
 
 .contact-us-box {
-  @apply flex items-center gap-x-4 py-10 px-14 border border-zinc-100 hover:border-gold duration-200;
+  @apply flex items-center gap-x-4 py-10 px-14 border border-zinc-100 hover:border-gold duration-200 cursor-pointer;
 }
 
 .padx {

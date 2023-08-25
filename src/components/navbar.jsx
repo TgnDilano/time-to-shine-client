@@ -16,13 +16,11 @@ const NavBar = () => {
     setRoute(pathname);
   }, [pathname]);
 
-  console.log(currentRoute);
-
   return (
-    <header className="fixed top-0 w-screen z-50 h-[5.2rem] bg-black border-b-[2.5px] border-gold shadow">
-      <nav className="h-full w-full text-lg text-zinc-400 flex justify-between padx items-center">
-        <Link className="p-1">
-          <img src={logo} />
+    <header className="fixed top-0 w-screen z-50 h-[5.3rem] bg-black border-b-[2.5px] border-gold shadow">
+      <nav className="h-full w-full text-lg text-white font-semibold flex justify-between padx items-center">
+        <Link className="p-1 cursor-pointer" to={appRoutes.home.path}>
+          <img src={logo} className="h-[3rem]"/>
         </Link>
         <ul className="flex justify-between items-center gap-x-10">
           {Object.values(appRoutes).map((e, index) => (
