@@ -39,7 +39,7 @@ const Counter = () => {
     <motion.div
       initial={{ opacity: 0, scale: 1 }}
       animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.5 }}
     >
       <section className="h-[42rem] bg-gray-100 w-screen relative overflow-hidden ">
         <div className="w-full h-full absolute z-10 flex items-center justify-center flex-col gap-y-14">
